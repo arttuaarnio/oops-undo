@@ -136,7 +136,7 @@ func topLevelNames(data, folder string, noGit bool) ([]string, error) {
 			return nil, err
 		}
 		for _, e := range entries {
-			if !(noGit && e.Name() == ".git") {
+			if !noGit || e.Name() != ".git" {
 				seen[e.Name()] = true
 			}
 		}
