@@ -4,7 +4,7 @@
 
 Snapshot a folder before a risky command, then restore the whole folder or a single path. macOS only, using APFS copy-on-write clones: snapshots are near-instant and take almost no disk space.
 
-Early version (v0.1). The Claude Code hook coming next.
+Early version (v0.1). The Claude Code hook is coming next.
 
 ## Why
 
